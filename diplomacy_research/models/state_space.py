@@ -29,6 +29,9 @@ import zlib
 import numpy as np
 from diplomacy import Game
 from diplomacy import Map
+import sys
+
+sys.path.append('.')
 from diplomacy_research.proto.diplomacy_proto.common_pb2 import MapStringList
 from diplomacy_research.proto.diplomacy_proto.game_pb2 import State as StateProto, PhaseHistory as PhaseHistoryProto
 from diplomacy_research.utils.proto import dict_to_proto
